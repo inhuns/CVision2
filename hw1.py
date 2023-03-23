@@ -15,7 +15,7 @@ if img is not None:
     plt.subplot(2, 2, 3)
     plt.imshow(img, cmap='gray')  # cmap = color map
 
-    #img_rgb = cv2.cvtColor(img_color, ?)
+    #img_rgb = cv2.... ?)
     #plt.subplot(2, 2, 4)
     #plt.imshow(img_rgb)
     plt.show()
