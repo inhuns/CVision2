@@ -15,7 +15,7 @@ if img is not None:
     plt.subplot(2, 2, 3)
     plt.imshow(img, cmap='gray')  # cmap = color map
 
-    #img_rgb = cv2.... ?)
+    #img_rgb = cv2.... ?)        # Q)  OpenCV의 색변환 함수를 이용하여 BGR을 RGB로 변경하시오.
     #plt.subplot(2, 2, 4)
     #plt.imshow(img_rgb)
     plt.show()
