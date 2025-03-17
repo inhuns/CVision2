@@ -16,7 +16,7 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
 
-    img_file = "img/Lenna.png"  # 표시할 이미지 경로 ---①
+    img_file = "img/Lena.png"  # 표시할 이미지 경로 ---①
     img = cv2.imread(img_file)  # 이미지를 읽어서 img 변수에 할당 ---②
 
     print(type(img))
@@ -36,7 +36,7 @@ if __name__ == '__main__':
     else:
         print('No image file.')
 
-    save_file = 'img/Lenna_gray.jpg'
+    save_file = 'img/Lena_gray.jpg'
     cv2.imwrite(save_file, img)  # 파일로 저장, 포맷은 확장에 따름
 
     print('program is terminated')
